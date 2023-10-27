@@ -1,0 +1,838 @@
+local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/XG74FjMX"))();
+
+OrionLib:MakeNotification({
+
+        Name = "Sparky's admin",
+
+        Content = "Loading...",
+
+        Image = "http://www.roblox.com/asset/?id=15149811624",
+
+        Time = 5
+
+    })
+
+    wait(5)
+
+    OrionLib:MakeNotification({
+
+        Name = "Sparky's admin ",
+
+        Content = "Current version for Today Is : 0.99.5 pre-release",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 5
+
+    })
+     OrionLib:MakeNotification({
+
+        Name = "Sparky's admin ",
+
+        Content = "Release soon When I finish Tabs lol XD",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 8
+
+    })
+     OrionLib:MakeNotification({
+
+        Name = "Sparky's admin",
+
+        Content = "Script Made by Sasha Nademsky",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 8
+    })
+
+    OrionLib:MakeNotification({
+
+        Name = "Sparky's admin ",
+
+        Content = "Please Select Script",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 5
+
+    })
+    OrionLib:MakeNotification({
+
+        Name = "Sparky's admin ",
+
+        Content = "https://youtu.be/eqh-qAO5F44?si=JJBLY3gum0TxHhV_",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 7
+
+    })
+    OrionLib:MakeNotification({
+
+        Name = "Sparky's admin ",
+
+        Content = "Credit goes to script owners not me",
+
+        Image = "http://www.roblox.com/asset/?id=11507046652",
+
+        Time = 7
+
+    })
+
+local Window = OrionLib:MakeWindow({Name = "Sparky's admin 0.99.5 🎃 (pre-release) (Script Selector)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+
+	Name = "The Warning!",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "Warning! You can't move the script on phone so better use pc!"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "Happy Halloween 👻🎃!"
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "Scripts",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "Nothing Just scripts"
+
+})
+
+Tab:AddButton({
+
+	Name = "Prisonlife TIGER ADMIN(FUCKING KEY)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/h17s3/TIGERADMIN/main/TIGERADMINSCRIPTFREE'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Ro-Xploit 6.0 LOADSTRING",
+
+	Callback = function()
+
+      		loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "c00lgui Reweakned",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://pastebin.com/raw/bV90GJGm'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "D00rs (op1)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QS6JcVuK"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Pet Sim X Script",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/95HthyJq"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Mad City GUI",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/8Q7y93US", true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural Disaster Survival| OP 4/",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/NullProtector/NullProtector.github.io/main/Osy%20%7BProtected%20By%20Moonsec%5D"))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Work At A Pizza Place GUI",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/cwUuTKjF"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Energize Fe animations ",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet(('https://pastebin.com/raw/1p6xnBNf'),true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Work At A Pizza Place Music Player",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/pizza-place-audio-player/main/script"))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Prisonlife LIMON",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VwELNvdc", true))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Prison Life PRISONWARE",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Denverrz/scripts/master/PRISONWARE_v1.3.txt"))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "PendulumHubFE",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Ro Crash",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/main/Center%20Regginator%20Admin",true))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Harked Reborn",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/jW1vJupc"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "c00lgui v2.2 (OP)!!",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/theawesomari0/c00lgui/main/c00lgui%20v2.2"), true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Backdoor.exe",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/pzd304MQ"))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Realistic Car Crash Simulator",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/main/Center%20Regginator%20Admin",true))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Break In 2 GUI (OP!)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RScriptz/RobloxScripts/main/BreakIn2.lua"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "ScriptHub Idk What Is This XD",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/drakker33/rblx-decaying-winter/main/DecayingWinter.lua"), true))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Car Crash Test",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/main/Center%20Regginator%20Admin",true))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "BT Drive BETA",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Icalock/Server/main/Center%20Regginator%20Admin",true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Keyboard Script",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Good Cop Bad Cop Script",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/KwuminKa"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural disaster Survival | OP 2/may not works",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/Rawnder-NTDR/main/NaturalDisaster'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "FE AUDIO destroyer (if game has Fe false!)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/u4Xj2svj"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "007n7 c00lgui",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://pastebin.com/raw/XQbGdCgW'))();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Infinity Yield FE 5.9",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural Disaster Survival | black hole \may not works",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/Q3Fjw3PZ"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural Disaster Survival | OP1\may not works",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Kohl's Admin (BETA)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/LazyNoobGithub/Khols-Admin-Module/main/modulescript", true))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural Disaster Survival|OP 3/ may not works",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/RobloxHackingProject/CHHub/main/CHHub.lua"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Natural Disaster Survival|OP 5/ may not works",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/hussain1323232234/My-Scripts/main/Natural%20Disaster'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "IceHub",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Replication UI (may Don't work)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/neSJ5H2Z"))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "xRawander PRISON LIFE",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiverMods/xRawnder/main/Project'))();
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "c00lgui FE",
+
+	Callback = function()
+
+      		loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)();
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "INFINITY YIELD FE (BETA)",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/QGQMm3yG"))();
+
+  	end    
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "Others",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "Others Section"
+
+})
+
+Tab:AddButton({
+
+	Name = "R6",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Imagnir/r6_anims_for_r15/main/r6_anims.lua", true))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Synapse X",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Synapse X v2",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/3NRaxjXY"))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Synapse X v3",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/2qjBZB1Y"))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Energize By Sasha.nademsky",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/2hWb2p6H"))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Old Anim",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/823jkwwN"))()
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "Old Anim 2013",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Sash8585705/Eni/main/scriptoldanim2013",true))()
+
+  	end    
+
+})
+local Tab = Window:MakeTab({
+
+	Name = "Audio IDs For Scripts",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "Prints Name Of The Audio In The Console open in F9 Or type in chat /console"
+
+})
+Tab:AddButton({
+
+	Name = "6942391979",
+
+	Callback = function()
+
+      		print("k00pkiddtheme")
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "6529070845",
+
+	Callback = function()
+
+      		print("Super Loud Rap")
+
+  	end    
+
+})
+Tab:AddButton({
+
+	Name = "1847661821",
+
+	Callback = function()
+
+      		print("G00BYDOLANtheme")
+
+  	end    
+
+})
+local Tab = Window:MakeTab({
+
+	Name = "Changelog",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "0.20-we started new project"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.37.3-added first 3 scripts."
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.40.5-added 10 script fixed error with ;"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.60-added tab sponsors."
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.76.7-added tabs and nothng"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.80-added changelogs"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.92- added notification"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.96.7-added scripts added trololol shampun from notch link yt"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "0.98.7-added many scripts improved ui"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "Sorry I will update it soon I don't have time"
+
+})
+local Tab = Window:MakeTab({
+
+	Name = "Sponsors",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "DM ME IF WANT BE SPONSOR: ff5nkidd"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "sponsor is : MASTUR BIST!!1!1!"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "sponsor is : Dima Aleskin He helped me make word иди нахуй!"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "sponsor is : Sofia"
+
+})
+local Tab = Window:MakeTab({
+
+	Name = "Our History...",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "We Started With a simple ui in 2018"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "then in 2022 we tired making ui soo"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "We started new project named center regginator EDITED!"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "then we renamed project to"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "sparkys admin!"
+
+})
+local Section = Tab:AddSection({
+
+	Name = "I will add some facts soon..."
+
+})
+local Tab = Window:MakeTab({
+
+	Name = "PREMIUM(TEST!)",
+
+	Icon = "http://www.roblox.com/asset/?id=11507046652",
+
+	PremiumOnly = true
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "how you got here this is a test nvm"
+
+})
