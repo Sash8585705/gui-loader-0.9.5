@@ -627,7 +627,7 @@ Tab:AddButton({
 
 	Callback = function()
 
-      		loadstring(game:HttpGet("https://pastebin.com/raw/823jkwwN"))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/jtcMBatu"))()
 
   	end    
 
