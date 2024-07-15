@@ -18,7 +18,7 @@ OrionLib:MakeNotification({
 
         Name = "Sparky's admin ",
 
-        Content = "Current version for Today Is : 0.99.5 pre-release",
+        Content = "Current version for Today Is : 1.0.5",
 
         Image = "http://www.roblox.com/asset/?id=11507046652",
 
@@ -81,7 +81,7 @@ OrionLib:MakeNotification({
 
     })
 
-local Window = OrionLib:MakeWindow({Name = "Sparky's admin 0.99.5 🎃 (pre-release) (Script Selector)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Sparky's admin 1.0.5 (pre-release) (Script Selector)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
 
 	Name = "The Warning!",
@@ -95,11 +95,6 @@ local Tab = Window:MakeTab({
 local Section = Tab:AddSection({
 
 	Name = "Warning! You can't move the script on phone so better use pc!"
-
-})
-local Section = Tab:AddSection({
-
-	Name = "Happy Halloween 👻🎃!"
 
 })
 
@@ -577,6 +572,19 @@ Tab:AddButton({
   	end    
 
 })
+
+Tab:AddButton({
+
+	Name = "Old r15",
+
+	Callback = function()
+
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7udHNHJw", true))()
+
+  	end    
+
+})
+
 Tab:AddButton({
 
 	Name = "Synapse X",
